@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- === css link === -->
+    <link rel="stylesheet" href="css/manage-sale.css">
+    <title>manage sale</title>
+</head>
+
+<body>
+    <!-- === COUNTER SECTION === -->
+    <div class="counter-section">
+
+        <!-- === TOTAL SALE SECTION === -->
+        <div class="total-sale-section">
+            <!-- === HOME ICON === -->
+            <i class="fa-solid fa-house"></i>
+            <!-- === SALE TEXT === -->
+            <div class="sale-text">
+                <p>TOTAL PRODUCT SALE</p>
+                <H1>0 BDT</H1>
+            </div>
+        </div>
+        <!-- === TOTAL PAID SECTION === -->
+        <div class="total-paid-section">
+            <!-- === HOME ICON === -->
+            <i class="fa-solid fa-check"></i>
+            <!-- === SALE TEXT === -->
+            <div class="sale-text">
+                <p>TOTAL PAID</p>
+                <H1>0 BDT</H1>
+            </div>
+        </div>
+        <!-- === TOTAL DUE SECTION === -->
+        <div class="total-due-section">
+            <!-- === HOME ICON === -->
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <!-- === SALE TEXT === -->
+            <div class="sale-text">
+                <p>TOTAL DUE</p>
+                <H1>0 BDT</H1>
+            </div>
+        </div>
+    </div>
+    <!-- === COUNTER SECTION END === -->
+
+    <!-- === MANAGE SECTION === -->
+    <div class="manage-section">
+        <!-- === MANAGE CONTAINER === -->
+        <div class="manage-container">
+            <p>Manage Sale</p>
+            <!-- === FILTER AND ADD SECTION === -->
+            <div class="filter-add-new">
+                <div class="filter-container">
+                    <i class="fa-solid fa-filter"></i>
+                    <a href="#">Filter</a>
+                </div>
+                <div class="add-new-sale-container">
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <a href="pos-sale.html">New Sale</a>
+                </div>
+            </div>
+        </div>
+        <!-- === LINE === -->
+        <hr>
+        <!-- === FILTER CONTAINER ITEMS === -->
+        <div class="filter-container-items">
+            <div class="invoice-box">
+                <input type="number" placeholder="Invoice">
+            </div>
+            <div class="select-input-container">
+                <select name="" id="">
+                    <option value="Outlet">Outlet</option>
+                    <option value="Outlet"></option>
+                    <option value="Outlet"></option>
+                </select>
+            </div>
+            <div class="select-input-container">
+                <select name="" id="">
+                    <option value="Outlet">Sale By</option>
+                    <option value="Outlet">All</option>
+                    <option value="Outlet"></option>
+                </select>
+            </div>
+            <div class="select-input-container">
+                <select name="" id="">
+                    <option value="Outlet">Customer Name</option>
+                    <option value="Outlet">All</option>
+                    <option value="Outlet">Walk-In-Customer</option>
+                </select>
+            </div>
+            <!-- === SALE DATE INPUT BOX === -->
+            <div class="sale-date-input-box">
+                <input type="text" placeholder="Sale Date" name="" id="">
+            </div>
+            <!-- === SALE TYPE SELECT BOX === -->
+            <div class="sale-type-select-box">
+                <select name="" id="">
+                    <option value="Sale Type">Sale Type</option>
+                </select>
+            </div>
+            <!-- === FIND BUTTON === -->
+            <div class="sh-button-container">
+                <div class="sh-find-button">
+                    <a href="#">Find</a>
+                </div>
+                <div class="sh-reset-button">
+                    <a href="#">Reset</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- === SHOW AND SEARCH SECTION === -->
+        <div class="show-and-search-section">
+            <!-- === SHOW CONTAINER === -->
+            <div class="show-container">
+                <p>Show</p>
+                <select name="" id="">
+                    <option value="">10</option>
+                    <option value="">20</option>
+                    <option value="">30</option>
+                </select>
+                <p>Entries</p>
+            </div>
+            <!-- === SEARCH CONTAINER === -->
+            <div class="search-container">
+                <label for="text">Search:</label>
+                <input type="search">
+            </div>
+        </div>
+        <!-- === MANAGE SALE DETAILS SECTION === -->
+        <div class="manage-sale-details-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>SL</th>
+                        <th>Invoice No</th>
+                        <th>Input Invoice No</th>
+                        <th>Outlet</th>
+                        <th>Sales By</th>
+                        <th>Customer Name</th>
+                        <th>Date</th>
+                        <th>Total Amount (BDT)</th>
+                        <th>Paid Amount (BDT)</th>
+                        <th>Due Amount (BDT)</th>
+                        <th>Payment Status</th>
+                        <th>Sale Type</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+            </table>
+            <!-- === EMPTY SECTION === -->
+            <div class="empty-section">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>No data available in table</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- === SLIDE PAGES === -->
+        <div class="sh-slider-pages">
+            <p>Showing 4 to 4 of 4 entries</p>
+            <div class="sh-slide-right-item">
+                <a href="#">Previous</a>
+                <p>1</p>
+                <a href="#">Next</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- === FONT AWSOME LINK === -->
+    <script src="https://kit.fontawesome.com/aab4d24b6f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
