@@ -89,10 +89,12 @@ td {
 /* === RESPONSIVE FOR MOBILE === */
 @media(max-width: 768px) {
     .top-section {
-        gap: 30px;
         height: 60px;
-        padding-left: 10px;
+        padding: 10px;
         margin: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }
 
@@ -138,6 +140,22 @@ td {
 
 .quotation-right-container ul li img {
     width: 25px;
+}
+/* === MOBILE RESPONSIVE === */
+@media(max-width: 768px){
+    .quotation-list-section{
+        width: 100%;
+        margin: 0;
+    }
+    .quotation-container{
+        padding: 10px 10px;
+        display: flex;
+        height: auto;
+    }
+    .quotation-right-container ul{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* === QUOTATION SECOND SECTION === */
@@ -194,7 +212,16 @@ td {
 .search-container input:focus {
     outline: none;
 }
-
+/* === MOBILE RESPONSIVE === */
+@media(max-width:768px){
+    .quotation-second-section {
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        line-height: 2em;
+    }
+}
 /* === TABLE SECTION === */
 .table-section {
     margin: 20px;
@@ -309,4 +336,8 @@ tbody tr td b {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+table{
+    width: 100%;
+    min-width: 100%;
 }
