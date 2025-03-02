@@ -58,6 +58,10 @@ body{
     height: 60px;
     gap: 0px 30px;
     padding-left: 20px;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
 }
@@ -67,7 +71,7 @@ body{
 .sh-active{
     background-color: var(--main-green);
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 10px;
 }
 .sh-list a{
     color: var(--black);
@@ -110,10 +114,7 @@ body{
 
 /* === quotation-container === */
 .quotation-container {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .quotation-container p {
